@@ -162,7 +162,7 @@ fn calc_path_len(start : &str, end : &str, map : Map) -> i64 {
 }
 
 fn main() {
-    println!("Hello, welcome to day 7!");
+    println!("Hello, welcome to day 8!");
     let args: Vec<String> = env::args().collect();
     let map = parse_file(&args[1]);
     println!("Steps: {}", calc_path_len2(map));
